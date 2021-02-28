@@ -352,7 +352,7 @@ static BOOL _vaultedCardAppearAnalyticSent = NO;
 }
 
 - (float)sheetHeight {
-    return self.paymentMethodNonces.count == 0 ? 280 : 470;
+    return self.paymentMethodNonces.count == 0 ? 280 : 540;
 }
 
 - (void)vaultedPaymentsEditButtonPressed {
